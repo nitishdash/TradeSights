@@ -133,3 +133,7 @@ app.get("/equitybulls/ipo", (req, res, next) => {
 	res.json((ipo));
 });
 
+app.get("/", (req, res, next) => {
+	res.json("HELLOW!!!!! You're in cloud!");
+});
+
